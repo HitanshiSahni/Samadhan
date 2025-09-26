@@ -90,7 +90,7 @@ export function LeafletMap({
 
       // Initialize map
       if (!mapInstanceRef.current) {
-        mapInstanceRef.current = L.map(mapRef.current).setView([40.7128, -74.006], 12)
+        mapInstanceRef.current = L.map(mapRef.current).setView([18.5204, 73.8567], 12)
 
         L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
           attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
